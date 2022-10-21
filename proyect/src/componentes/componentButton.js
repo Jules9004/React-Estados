@@ -16,3 +16,5 @@ class ComponentButton extends Component {
         )
     }
 }
+
+export default ComponentButton

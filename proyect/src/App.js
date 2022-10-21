@@ -1,18 +1,18 @@
 import './App.css';
-import {ComponentClass} from './componentes/componentClass';
-import {ComponentClass2} from './componentes/componentClass';
-import {ComponentFunc, ComponentFunc2} from './componentes/ComponentFunc';
-import {ComponentButton} from './componentes/ComponentButton';
+import {ComponentClass, ComponentClass2} from './componentes/componentClass';
+import {ComponentFunc, ComponentFunc2} from './componentes/componentFunc'
+import ComponentButton from './componentes/componentButton'
 
 function App() {
   return (
     <div className="App">
-      <ComponentClass/>
-      <ComponentClass2/>
+      <ComponentClass />  
+      <ComponentClass2 />
       <ComponentFunc />
       <ComponentFunc2 />
-      <ComponentButton/>
+      <ComponentButton />
     </div>
   );
 }
+
 export default App;
